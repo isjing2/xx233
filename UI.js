@@ -609,9 +609,8 @@ ui.start.click(function () {
     }
     threads.start(function () {
         let url = [
-            'https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-            'https://cdn.jsdelivr.net/gh/sec-an/Better-Auto-XXQG@main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
-            'https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+            'https://cdn.jsdelivr.net/gh/zdu2022/xx233@main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
+            'https://raw.githubusercontent.com/zdu2022/xx233/main/'+ui.script_chosen.getSelectedItemPosition()+'.js',
         ];
         for (var i = 0; i < url.length; i++) {
             try {
